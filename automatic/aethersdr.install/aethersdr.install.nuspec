@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if Ã¢â‚¬Å“ÃŽÂ©Ã¢â‚¬Â doesnÃ¢â‚¬â„¢t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aethersdr.install</id>
+    <version>26.7.1</version>
+    <packageSourceUrl>https://github.com/chtof/chocolatey-packages/tree/master/automatic/aethersdr.install</packageSourceUrl>
+    <owners>chtof</owners>
+    <title>AetherSDR</title>
+    <authors>AetherSDR team</authors>
+    <projectUrl>https://github.com/aethersdr/AetherSDR</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/aethersdr.install/aethersdr.install.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://raw.githubusercontent.com/aethersdr/AetherSDR/refs/heads/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/aethersdr/AetherSDR</projectSourceUrl>
+    <docsUrl>https://github.com/aethersdr/AetherSDR/wiki</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/aethersdr/AetherSDR/issues</bugTrackerUrl>
+    <tags>aethersdr.install aethersdr aether sdr ham radio amateur</tags>
+    <summary>A cross-platform, open-source client for FlexRadio Systems transceivers</summary>
+    <description><![CDATA[
+AetherSDR brings full FlexRadio operation to Linux, macOS, and Windows â€” each a native build, no Wine or virtual machines. A native aarch64 build also runs on Raspberry Pi and other embedded ARM devices. Built from the ground up with Qt6 and C++20, it speaks the SmartSDR protocol natively and aims to replicate the full SmartSDR experience.
+## Highlights
+- GPU-accelerated spectrum & waterfall
+- Multi-slice & multi-panadapter
+- KiwiSDR public-receiver browser
+- Aetherial Audio Channel Strip
+- Six client-side noise-reduction engines
+- DAX virtual audio + IQ
+- AetherModem packet radio
+- AetherSweep
+- SpotHub
+- CW operator suite
+- FreeDV RADE
+- SmartLink remote + TCI v2.0 server
+- Broad hardware control
+
+![screenshot](https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/aethersdr.install/screenshot.png)
+]]></description>
+    <releaseNotes>https://github.com/aethersdr/AetherSDR/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="legal\**" target="legal" />
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
