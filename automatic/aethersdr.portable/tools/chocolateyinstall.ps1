@@ -10,7 +10,7 @@ $packageArgs = @{
 }
 
 Get-ChocolateyUnzip @packageArgs
-Remove-Item $packageArgs.file
+Remove-Item $packageArgs.file64
     
 # Install start menu shortcuts
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
