@@ -4,7 +4,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   destination   = "$toolsDir"
-  file          = "$toolsDir\CorsixTH-0.69.2-windows-x86_64.zip"
+  file          = "$toolsDir\CorsixTH-v0.70.0-x86_64.AppImage.zip"
 }
 
 Get-ChocolateyUnzip @packageArgs
