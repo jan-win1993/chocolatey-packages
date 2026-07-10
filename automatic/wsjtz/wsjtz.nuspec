@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/sq9fve/wsjt-z</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/chtof/chocolatey-packages/automatic/wsjtz/wsjtz.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://github.com/sq9fve/wsjt-z/blob/master/COPYING</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/sq9fve/wsjt-z/refs/heads/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/sq9fve/wsjt-z</projectSourceUrl>
     <docsUrl>https://github.com/sq9fve/wsjt-z/tree/master/docs</docsUrl>
