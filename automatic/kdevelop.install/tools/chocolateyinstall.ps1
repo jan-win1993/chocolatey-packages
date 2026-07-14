@@ -5,8 +5,8 @@ $params = @{
   fileType       = 'EXE'
   silentArgs     = '/S'   
 
-  url64bit       = 'https://cdn.kde.org/ci-builds/kdevelop/kdevelop/master/windows/kdevelop-master-6751-windows-cl-msvc2022-x86_64.exe'
-  checksum64     = 'fe71c7dc614ca8cc797cbcf3670712d7a459b84846427ab0b2578544237b4801'
+  url64bit       = 'https://cdn.kde.org/ci-builds/kdevelop/kdevelop/master/windows/kdevelop-master-6760-windows-cl-msvc2022-x86_64.exe'
+  checksum64     = '450614cbee1ba22c0282447c42fbb89a158cf7c64bae2eaf7a5ed326b997dd80'
   checksumType64 = 'sha256'
 }
 
