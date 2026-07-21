@@ -7,8 +7,8 @@ $packageArgs = @{
   unzipLocation  = "$toolsDir"
   
 
-  url64bit       = 'https://cdn.kde.org/ci-builds/kdevelop/kdevelop/master/windows/kdevelop-master-6762-windows-cl-msvc2022-x86_64.7z'
-  checksum64     = '8dbf7458625a0b1a6aa5f6e6d723fbe030803299f5ff365f89560e8b2a972168'
+  url64bit       = 'https://cdn.kde.org/ci-builds/kdevelop/kdevelop/master/windows/kdevelop-master-6780-windows-cl-msvc2022-x86_64.7z'
+  checksum64     = '71332764d50802b805974d747b1271adc58cb753cff4aa66b9f93f09ad6ca295'
   checksumType64 = 'sha256'
 }
 
